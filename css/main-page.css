@@ -1,0 +1,1074 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-color:  #ece8e1;
+}
+
+h1, h2, h3, h4, h5, p, li,button, a{
+    font-family: DINNextW1G, arial, georgia, sans-serif;
+    color:white;
+}
+
+
+#nav-bar{
+    background-color: black;
+    height:5rem;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width:100%;
+    z-index: 200;
+    /* top:auto; */
+}
+
+#nav-left-section{
+    display:flex;
+    width:75%;
+    justify-content: space-between;
+}
+#riot-logo{
+    fill: #f9f9f9;
+}
+
+#riot-logo:hover{
+    cursor: pointer;
+    fill:red;
+}
+
+#riot-nav-bar-logo{
+    color:white;
+    margin: auto 3%;
+    /* width:30%; */
+    display: flex;
+
+    
+}
+
+#nav-options-section{
+    display: flex;
+    /* align-items: end; */
+    width:100%;
+}
+
+#nav-options-section >div{
+    
+    margin:auto 2rem auto 0;
+}
+
+#nav-list-options{
+    list-style-type: none;
+    /* list-style: none; */
+    display: flex;
+    justify-content: space-between;
+    /* width: 70%; */
+    margin:auto;
+    height: 3rem;
+    padding:0;
+}
+
+#nav-list-options >li {
+    margin:1rem 1rem 0 0;
+    padding:auto 1rem auto 0;
+    /* width:fit-content; */
+    /* height: 1.8rem; */
+    text-align: center;
+    /* padding:4px; */
+    font-size:0.9rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* ALIGNING THE TABS IN THE nav-list-options */
+
+#game-info, #oursocial  {
+    width:7rem; 
+    position: relative;
+   
+    transition: 2s;
+}
+
+#support, #esports  {
+    width:6rem;
+    position: relative;
+}
+
+
+ #merch {
+    width: 5rem;
+}
+
+#nav-list-options >li:hover{
+    background-color: #3d3b3b;
+    cursor: pointer;
+}
+
+
+.dropdown{
+    list-style-type: none;
+    padding: 1rem 0;
+    margin: 0;
+    background-color: lightpink;
+     position: absolute;
+     display: none;
+     text-align:start;
+
+     width:150%;
+     top:31px;
+    background-color: #292929;
+    border-radius: 3px;
+    border-top:4px solid #ff4655;
+
+}
+
+.dropdown >li{
+   
+    margin: 5px 16px;
+    padding:8px 16px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color:rgb(166, 160, 160);
+    border-radius: 3px;
+}
+
+.dropdown>li>a{
+    color:rgb(166, 160, 160);
+}
+
+.dropdown>li:hover{
+    background-color: #3d3b3b;
+}
+
+
+
+
+#game-info:hover #game-info-drop{
+    display: block;
+   
+}
+
+#support:hover #support-drop{
+    display:block;
+}
+
+#oursocial:hover #oursocial-drop{
+    display:block;
+}
+
+
+/* -------------------------------------------- */
+
+
+/* -------------NAV-RIGHT SECTION -------------- */
+
+#nav-right-section{
+    height:100%;
+   width:20%;
+    
+}
+
+#nav-right-section >div{
+    height: 3rem;
+    width:70%;
+    text-align:center;
+    margin:1rem 1rem 1rem  auto;
+    
+}
+
+.fa-magnifying-glass{
+    background-color: grey;
+    padding:0.6rem;
+    font-size: 1.4rem;
+   font-weight: 100;
+
+   border-radius: 15px;
+}
+
+.fa-magnifying-glass:hover{
+    cursor: pointer;
+}
+
+.fa-globe{
+    background-color: transparent;
+    padding:0.6rem;
+    font-size: 0.9rem;
+   font-weight: 100;
+    margin-bottom: 1rem;
+   border-radius: 15px;
+}
+
+.fa-globe:hover{
+    background-color: #292929;
+}
+
+
+#nav-right-section >div >button{
+    background-color: #ff4a4d ;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.9rem;
+   font-weight: 600;
+   color:#111111;
+   border-radius: 12px; 
+}
+
+#nav-right-section >div >button:hover{
+    cursor: pointer;
+}
+
+
+/* --------MOBILE---NAV----------- */
+#mobile-right-nav{
+    display: none;
+}
+
+
+/* ----NAV ENDS HERE ------------- */
+
+/* VALORANT PLAY FOR FREE SECTION   */
+
+
+#valorant-play-free{
+    height:70%;
+    width: 100%;
+    position: relative;
+   
+}
+
+#valorant-play-free > #valorant-play-free-video{
+    width: 100%;
+   
+}
+#valorant-play-free-video> video{
+    width:100%;
+  
+}
+
+#valorant-play-free > #valorant-play-free-content{
+   position: absolute;
+   top: 32%;
+   left: 16%;
+   width: 70%;
+   
+
+   text-align: center;
+   
+    /* z-index:990 ; */
+}
+
+#valorant-play-free-content>h1{
+    width:70%;
+    /* text-align: center; */
+    margin: 2rem auto 2rem auto;
+}
+
+#valorant-play-free-content>h4{
+    /* text-align: center; */
+    margin:auto; 
+}
+
+#valorant-play-free-content>div{
+    margin:auto;
+    height: 4rem;
+    width:30%;
+    border: 1px solid rgb(126, 126, 126);
+}
+
+#valorant-play-free-content>div>button{
+    width:93%;
+    height: 75%;
+    margin-top: 10px;
+
+    color:white;
+    background-color: red;
+    font-weight: 600 ;
+    border:none;
+}
+
+#valorant-play-free-content>div>button:hover{
+    background-color: rgba(8, 5, 69);
+}
+
+#valorant-play-free >div>h1>svg {
+    
+    fill: #ece8e1;
+}
+
+/* --------------------------------- */
+
+
+/* NEWS SECTION------------------------ */
+
+#news{
+    background-color:  #ece8e1;
+    padding-bottom: 4rem;
+    position: relative;
+}
+
+#header-news{
+    position:absolute;
+    top: 6%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    margin:auto;
+    z-index: 100;
+}
+
+#header-news>h2{
+    color: #ff4655;
+    font-weight: 900;
+    width: 40%;
+    font-size: 3.4rem;
+    height:7rem;
+   
+}
+
+
+#header-news >div{
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    height: 1.5rem;
+    margin-top:3.7rem;
+}
+
+#header-news >div>a >svg{
+    width: 100%;
+    height: 1rem;
+   
+}
+
+#header-news >div >a{
+    color:#ff4655;
+    text-decoration: none;
+    font-size:0.7rem;
+    font-weight: 700;
+
+}
+#news-cards-section{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    box-sizing: border-box;
+    margin:auto;
+   padding-top:8rem;
+    
+}
+
+.news-card{
+    width:31.5%;
+    position: relative;
+}
+
+
+
+
+.news-card >img{
+    width: 100%;
+    margin:auto;
+    align-self: center;
+    opacity: 1;
+    position: relative;
+    z-index:10;
+
+}
+
+.news-card >a {
+    display: block;
+    height: 5rem;
+    text-decoration: none;
+    color:black;
+    margin-top: 1rem;
+
+}
+
+/* .news-card >a>div{
+
+} */
+
+.news-card >a>div>span{
+    font-size: 11px;
+    font-weight: 700;
+    margin-right: 1rem;
+
+}
+
+.esports{
+    color:#ff4655;
+}
+
+.news-card >a >h3{
+    font-size: 18px;
+    color: #383e3a;
+    width:100%;
+    text-transform: uppercase;
+
+}
+
+.card-photo:hover{
+        opacity: 0.4;
+        
+}
+
+#red-color{
+    /* display: none; */
+    position: absolute;
+    width:100%;
+    height:68%;
+    background-color: rgb(255,70,85,0.8);
+   top :0%;
+   left:0%;
+   color:rgba(255, 255, 255, 0);
+   z-index: 0;
+ 
+}
+
+
+
+/* -------------------------------------------  */
+/* ------GAMEPLAY SECTION----------  */
+#gameplay{
+    background-color: #ece8e1 ;
+    width: 80%;
+    margin:auto;
+    padding:3rem 0; 
+    
+}
+
+#WE-ARE-VALO{
+    width: 80%;
+    
+    margin:0 10% 3rem auto;
+    display: flex;
+    justify-content: space-between;
+  
+    padding-top: 3rem;
+    border-top: 1px solid  #768079;
+    
+    
+}
+
+#WE-ARE-VALO >h2{
+    width:80%;
+    margin:0;
+    padding-top: 2rem;
+    color:#0f1923;
+    font-size:3rem;
+    font-family: Tungsten-Bold, arial, georgia, sans-serif;
+    font-weight: 900;
+    box-sizing: border-box;
+
+}
+
+#span-content-gameplay{
+    padding-top: 3.3rem;
+    /* display:flex; */
+    width: 15%;
+    height:2rem;
+    border-bottom:4px solid #ff4655;
+}
+
+#span-content-gameplay >span{
+    display: block;
+    text-align: end;
+    font-size: 10px;
+    color: #ff4655;
+    font-weight: 600;
+    font-family: DINNextW1G, arial, georgia, sans-serif;
+
+}
+
+#gameplay-video-content{
+ width:80%; 
+ display: flex;
+ justify-content: space-between;
+ padding-left:18%;
+}
+
+#gameplay-video-content >div>h3{
+    color:#383e3a;
+    margin-bottom: 1.8rem;
+}
+
+#gameplay-video-content >div>p{
+    color:#768079;
+    margin-bottom:2rem;
+}
+
+#gameplay-video-content >div>div{
+   /* align-items: center; */
+    width:100%;
+    height:3.6rem;
+    margin:auto;
+    border: 1px solid #7f8881 ;
+}
+
+#gameplay-video-content >div>div >a{
+    text-decoration: none;
+    background-color: #ff4655;
+    font-weight: 600;
+    font-size:0.9rem;
+    display: block;
+    width: 85%;
+    margin:auto;
+    margin-top:0.5rem;
+    padding:0.8rem;
+    text-align: center;
+
+}
+
+#gameplay-video-content >div>div >a:hover{
+    background-color: rgba(8, 5, 69);
+}
+
+#gameplay-video{
+    
+    width:60%;
+ 
+}
+
+#gameplay-video >video{
+   height:100%;
+   width:100%;
+}
+
+/* --------------------------------------- */
+
+/* YOUR MAPS----------------------- */
+
+#your-maps{
+   display: flex;
+   justify-content: end;
+   background-color:  #ece8e1;
+   position: relative;
+}
+
+#your-maps  >img{
+    width:70%;
+}
+
+#your-maps-cont{
+    position: absolute;
+    top: 19%;
+    left: 10%;
+    margin-left: 3rem;
+
+
+}
+
+#your-maps-cont >h2{
+    color:#0f1923 ;
+    font-size: 90px;
+    margin-bottom: 3rem;
+}
+
+#your-maps-cont >h4{
+    color:#0f1923 ; 
+    font-size: 21px; 
+}
+
+
+#your-maps-cont >p{
+    
+    color: #768079;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+#your-maps-button{
+    width:40%;
+    height: 3rem;
+    border:1px solid  #bdbcb7;
+    text-align: center;
+    margin-top:3rem;
+}
+
+#your-maps-button >button{
+    margin-top: 6px;
+    padding: 0.6rem 3.2rem;
+    background-color: #ff4655;
+    border:none;
+}
+
+
+
+/* ----------------------------------- */
+/* FOOTER SECTION  */
+
+#footer{
+    background-color: rgb(17,17,17);
+    padding-bottom: 3rem;
+}
+
+#footer>#download-game{
+    background-color: #292929;
+    text-align: center;
+    height:4rem;
+}
+
+#download-game >button{
+    background-color: transparent;
+    margin:16px 22px 0 0;
+    height: 2rem;
+   
+
+    border:none;
+    font-weight: 600;
+    
+}
+
+#download-game >button:hover{
+    background-color:#3d3b3b;
+    border-radius: 5px;
+}
+
+#social-icons{
+    background-color: rgb(17,17,17);
+    height:4rem;
+}
+
+#social-icons> ul{
+    list-style: none;
+    display: flex;
+   
+    margin:0;
+    padding:22px;
+    /* margin:22px 22px 0 0; */
+    justify-content: center;
+
+    height: 2.5rem;
+}
+
+#social-icons >ul >li{
+    margin-right: 16px;
+        width:2rem;
+}
+
+#social-icons >ul >li >i{
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 22%;
+}
+
+#riot-games-footer{
+
+    background-color: rgb(17,17,17);
+
+    height: 4rem;
+    text-align: center;
+    /* margin-bottom: 22px; */
+}
+
+#riot-games-footer >svg:hover{
+    fill:white;
+}
+
+
+#copyright-claim{
+    text-align: center;
+    height:4rem;
+    background-color: rgb(17,17,17);
+    
+    /* padding: 22%; */
+}
+#copyright-claim >p{
+    margin:0;
+    padding:22px;
+    color:#737373;
+    font-size: 13px;
+}
+
+
+#privacy-notice{
+    background-color: rgb(17,17,17);
+    text-align: center;
+    height:4rem;
+}
+
+#privacy-notice >a{
+    background-color: transparent;
+    margin:22px 22px 0 0;
+    height: 2rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    border:none;
+    font-weight: 600;
+    
+}
+
+#download-game >button:hover{
+    background-color:#3d3b3b;
+    border-radius: 5px;
+}
+
+#blood-violence-footer{
+    height:7rem;
+    width:15%;
+    margin:auto;
+    background-color: #292929;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding:1% 1%;
+}
+
+#blood-violence-footer>ul{
+    list-style-type: none;
+    padding:0;
+}
+
+#blood-violence-footer>ul>li{
+    font-size: 1rem;
+}
+
+
+/* ----------------DESKTOP ENDS------------ */
+
+/* -----------------MOBILE BEGINS------------ */
+
+@media (max-width :600px){
+
+    /* -------NAVBAR-MOBILE--------- */
+    br{
+        display: none;
+    }
+    #nav-left-section{
+        width:70%;
+    }
+
+   #riot-nav-bar-logo{
+    width:80%;
+    margin-right:10%;
+   }
+
+    #nav-list-options{
+        display: none;
+    }
+
+    #nav-right-section{
+        width:30%;
+    }
+
+    #nav-right-section >#options-right-desk{
+        display:none;
+    }
+
+    #mobile-right-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #mobile-right-nav >i{
+        width:48%;
+        height: 1rem;
+    }
+
+    #mobile-right-nav >.fa-bars{
+        margin:auto;
+        padding:0.8rem 1px;
+        background-color: #3d3b3b;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    
+
+    #mobile-right-nav >.fa-globe{
+        margin:auto;
+        background-color: #3d3b3b;
+        padding: 0.8rem 1px;
+        font-size: 20px;
+        margin-right:7px;
+        border-radius: 5px;
+    }
+
+    /* -------NAVBAR-mobile-ENDS-------- */
+
+    /* MOBILE-valorant-play-free------- */
+    #valorant-play-free{
+        height:100%;
+        width: 100%;
+        position: relative;
+       
+    }
+
+    
+
+    /* #valorant-play-free >#valorant-play-free-video{
+    
+    } */
+
+    
+    #valorant-play-free-video> video{
+       height: 512px;
+       width: 100%;
+      
+    }
+
+  
+
+    #valorant-play-free-content>div {
+        margin: auto;
+        height: 4rem;
+        width: 70%;
+        border: 1px solid rgb(126, 126, 126);
+    }
+
+    /* ---------------PLAYFREE-MOBILE-ENDS--------------- */
+
+    /* -----------------NEWS-MOBILE------------ */
+
+    #news{
+        width:90%;
+        margin:auto;
+    }
+
+    #header-news{
+        position:absolute;
+    top: 11%;
+    left: 0%;
+    display: block;
+    
+      height: 100%;
+      
+    width:100%;
+    margin:auto;
+    z-index: 200;
+    }  
+    
+    
+#header-news>h2{
+    
+
+    width: 100%;
+    font-size: 2.4rem;
+    height:3rem;
+   
+}
+ 
+#header-news >div{
+    
+    
+    width: 40%;
+    height: 1.5rem;
+    margin-top:80%;
+}
+
+#header-news >div >a{
+   
+    text-decoration: none;
+    font-size:0.8rem;
+    font-weight: 900;
+
+}
+
+    #news-cards-section{
+       
+      
+        width: 100%;
+       
+       
+       padding-top:8rem;
+        
+    }
+
+    .news-card{
+        width:100%;
+        position: relative;
+    }
+
+
+    #mobile-disappear, #mobile-disappear-2{
+        display: none;
+    }
+
+
+
+
+    /* ------------GAMEPLAY-MOBILE-------------- */
+
+    #gameplay{
+        width: 90%;
+    }
+
+    #WE-ARE-VALO{
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    #WE-ARE-VALO >h2{
+        width:100%;
+        font-size:1.6rem;
+        font-family: Tungsten-Bold, arial, georgia, sans-serif;
+        font-weight: 900;
+    
+    }
+
+    #span-content-gameplay{
+        display:none;
+    }
+
+    #gameplay-video-content{
+        width:100%; 
+       display: block;
+        padding-left:0%;
+
+       }
+
+       #gameplay-video-content >div>p{
+        line-height: 1.5;
+        margin-bottom:3rem;
+        
+    }
+
+    #gameplay-video{
+        margin-top:3rem;
+        width:100%;
+     
+    }
+
+    /* -------------YOURMAPS-mobile----------- */
+    #your-maps{
+        display: block;
+        
+        background-color:  #ece8e1;
+        position: relative;
+     }
+
+    
+    #your-maps-cont{
+        position: static;
+    }
+
+    #your-maps  >img{
+        width:100%;
+    }
+
+    #your-maps-cont >h2{
+      
+        font-size: 36px;
+     
+    }
+
+    #your-maps-cont >h4{
+       
+        font-size: 16px; 
+    }
+
+    #your-maps-cont >p{
+
+        font-size: 0.9rem;
+        line-height: 1.8;
+        
+    }
+
+    #your-maps-button{
+        width:76%;
+        height: 5rem;
+        position: absolute;
+        top: 72%;
+        left: 10%;
+    }
+
+    #your-maps-button >button{
+        margin-top: 6px;
+        padding: 1.3rem 3.8rem;
+        font-size: 22px;
+      
+    }
+
+    
+/* -----------YOURMAPS-mobile-ENDS----- */
+    /* -------------FOOTER-mobile---------
+     */
+
+    
+#footer>#download-game{
+    background-color: #292929;
+    text-align: center;
+    height:8rem;
+}
+
+#social-icons> ul{
+    list-style: none;
+    display: flex;
+   
+    margin:0;
+    padding:22px;
+    /* margin:22px 22px 0 0; */
+    justify-content: center;
+
+    height: 2.5rem;
+}
+
+#social-icons >ul >li{
+    margin-right: 28px;
+        width:2rem;
+}
+
+
+#social-icons >ul >li >i{
+   
+    border-radius: 10px;
+    padding: 22%;
+    font-size: 28px;
+}
+
+
+#riot-games-footer{
+
+    background-color: rgb(17,17,17);
+
+    margin-top:2rem;
+           height: 7rem;
+    text-align: center;
+    /* margin-bottom: 22px; */
+}
+
+#riot-games-footer >svg{
+    margin:auto;
+    margin-bottom: 20px;
+    display: block;
+  
+    
+    /* margin-bottom: 22px; */
+}
+
+
+
+#privacy-notice{
+    background-color: rgb(17,17,17);
+    text-align: center;
+    height:10rem;
+}
+
+#privacy-notice >a{
+    display: block;
+    margin:22px auto 0 auto;
+    height: 2rem;
+    
+}
+
+
+#blood-violence-footer{
+    
+    width:55%;
+    padding:3% 4%;
+   
+}
+
+
+#footer{
+   
+    padding-bottom: 6rem;
+}
+/* -------------FOOTER-mobile-ENDS--------
+     */
+
+
+}

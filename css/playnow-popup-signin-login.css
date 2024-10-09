@@ -1,0 +1,107 @@
+
+
+
+h1, h2, h3, h4, h5, p, li,button, a{
+    font-family: DINNextW1G, arial, georgia, sans-serif;
+    color:white;
+}
+
+
+#playnow-popup-signin-login{
+    height: 100vh;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0.659);
+    
+    text-align: center;
+    position:absolute;
+    top:0%;
+    left:0%;
+    z-index:999;
+    display: none;
+
+
+}
+
+
+#playnow-popup-signin-login>div{
+    background-color: #0f1923;
+    width: 60%;
+    margin: 3rem   auto ;
+
+    padding:4rem;
+
+}
+
+#playnow-popup-signin-login>div>h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+#playnow-popup-signin-login>div>span{
+    display: inline-block;
+    background-color: #ff4654;
+    height:2rem;
+    width: 2rem;
+    margin-left: 70%;
+}
+
+.fa-xmark{
+    color:white;
+    font-size: 2rem;
+}
+
+
+
+#playnow-popup-signin-login-buttons{
+    margin:auto;
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#playnow-popup-signin-login-buttons>div>h5{
+    font-size: 1.2rem;
+    
+}
+
+
+#playnow-popup-signin-login-buttons>div>button{
+    height: 3.5rem;
+    width: 70%;
+    background-color: #ff4654;
+    outline: none;
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+
+
+#playnow-popup-signin-login-buttons>div>button:active{
+    color: black;
+    background-color: white;
+}
+
+
+
+
+/* logout section */
+
+#logout{
+
+    /* display: none; */
+    background-color: red;
+    width: 50%;
+
+
+}
+
+
+
+
+
+
+
+
+

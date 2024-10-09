@@ -1,0 +1,81 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: DINNextW1G, arial, georgia, sans-serif;
+    color:white;
+}
+
+
+
+
+#nav-bar-cover{
+    width: 100%;
+    height:5rem;
+}
+
+#agents-heading{
+    background-image: url(../img-gif/agents-nav-bar.webp);
+    height: 10rem;
+    width: 100%;
+    align-items: end;
+}
+
+#agents-heading>h2{
+    font-size: 4rem;
+    padding: 4rem 4rem 0 4rem;
+    
+}
+
+
+section{
+    background-color: #0f1923;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+}
+section>div{
+    cursor: pointer;
+}
+section>div>div{
+    overflow: hidden;
+    width:90%;
+}
+
+section>div>div>img{
+    display: block;
+    width: 100%;
+}
+
+section>div:hover img{
+    cursor: pointer;
+    
+    transition: 2s;
+    transform: scale(1.2);
+    position: relative;
+    z-index: 1;
+}
+
+section>div>h3{
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 90%;
+    background-color: white;
+    color:black;
+}
+
+
+
+
+/*----------------AGENTS POPUP SCREEN---------------------------- */
+
+
+
+
+
+
+
+
+

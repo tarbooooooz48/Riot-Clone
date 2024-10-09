@@ -1,0 +1,91 @@
+
+
+
+
+
+
+#map-view h1{
+    color: black;
+    margin-top: 0;
+    padding: 4rem;
+    font-size: 5rem;
+    font-weight: 700;
+    background-image: url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7e09a710ddf1fbaa1834a35f3a7392b0c72b4011-5120x638.png?auto=format&fit=fill&q=80&w=1899);
+
+    
+
+
+}
+
+
+#map-view {
+    padding-top: 5rem;
+}
+
+
+.javascript-view-maps{
+    margin-bottom: 5rem;
+}
+
+
+.javascript-view-maps h3{
+    width: 80%;
+    margin: auto;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.javascript-view-maps p{
+    width: 40%;
+    margin-left:auto;
+    margin-right: 50%;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    word-spacing: 4px;
+}
+
+
+
+
+
+.main-img-map{
+    position: relative;
+    width: 90%;
+    margin: auto;
+
+}      
+.main-img-map img{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.fa-angle-left{
+    position: absolute;
+    color:white;
+    font-size: 6rem;
+    top:50%;
+    left:10%;
+}
+
+
+
+
+.fa-angle-right{
+position: absolute;
+    color:white;
+    font-size: 6rem;
+    top:50%;
+    left:85%;
+}
+
+
+
+
+
+
